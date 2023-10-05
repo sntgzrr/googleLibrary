@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="header">
+        <h2>Google Library</h2>
+    </div>
+
+    <div class="row">
+        <div class="input">
+            <app-search-box (loading)="loading = $event" (results)="updateResults($event)"></app-search-box>
+        </div>
+    </div>
+
+    <div class="row">
+        <p style="font-size: larger; font-weight: bolder;"><img *ngIf="loading" src="">{{message}}</p>
+        <div class="input">
+            <app-search-result *ngFor="let result of results" [result]="result"></app-search-result>
+        </div>
+    </div>
+</div>

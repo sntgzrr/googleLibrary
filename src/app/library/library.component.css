@@ -1,0 +1,21 @@
+/* Estilos para el campo de búsqueda */
+.container{
+    width: 50%;
+    font-family: "Comfortaa", cursive;
+    margin: 0 auto; /* Centra horizontalmente el campo de búsqueda */
+    display: block;
+    text-align: center;
+  }
+.header{
+  margin-top: 40px;
+}
+
+.row{
+  margin-top: 40px;
+}
+
+h2{
+  font-weight: bolder;
+  font-size: 70px;
+  color: #353a68;
+}

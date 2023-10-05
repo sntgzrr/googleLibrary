@@ -1,0 +1,8 @@
+.favs-container {
+    text-align: center; 
+}
+
+.element {
+    display: inline-block;
+    margin: 10px; 
+}

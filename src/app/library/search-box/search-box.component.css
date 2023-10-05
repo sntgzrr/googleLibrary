@@ -1,0 +1,22 @@
+/* Estilos para el campo de búsqueda */
+.form-control {
+  width: 50%;
+  font-family: "Comfortaa", cursive;
+  margin: 0 auto; 
+  display: block;
+}
+
+/* Estilos para el formulario de búsqueda */
+.form-control {
+  background-color: var(--search-bar-color); 
+  border-radius: 25px;
+  text-align: center; 
+  margin: 0 auto; 
+  display: block;
+}
+
+img{
+  width: 70%;
+  height: 70%;
+  margin-top: 50px;
+}

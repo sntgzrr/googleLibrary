@@ -1,0 +1,7 @@
+<div class="z-depth-5 books-container">
+    <a href="{{result.infoLink }}" class="btn btn-default book" role="button" target="_blank">
+    <img class="bookImage" src="{{ result.imageLinks }}">
+    <div class="titleText">{{ result.title }}</div>
+    </a>
+    <button type="button" class="btn btn-primary btn-rounded" (click)="agregarAFavoritos()">Agregar Favoritos</button>
+</div>
